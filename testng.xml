@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Excercise Suite">
+<!--	<listeners>
+		<listener class-name="listeners.ReportListeners"></listener>
+	</listeners>-->
+	<test name="Automation Excercise Suite Test">
+		<classes>
+			<class name="testcases.TestCase1_RegisterUser" />
+			<class name="testcases.TestCase2_LoginUserWithCorrectEmailAndPassword" />
+			<class name="testcases.TestCase3_LoginUserWithIncorrectEmailAndPassword" />
+			<class name="testcases.TestCase4_LogoutUser" />
+			<class name="testcases.TestCase5_RegisterUserWithExistingEmail" />
+			<class name="testcases.TestCase6_ContactUsForm" />
+			<class name="testcases.TestCase8_VerifyAllProductsAndProductDetailPage" />
+			<class name="testcases.TestCase9_SearchProduct" />
+			<class name="testcases.TestCase10_VerifySubscriptionInHomePage" />
+			<class name="testcases.TestCase11_VerifySubscriptionInCartPage" />
+			<class name="testcases.TestCase12_AddProductsInCart" />
+			<class name="testcases.TestCase13_VerifyProductquantityInCart" />
+			<class name="testcases.TestCase14_PlaceOrderRegisterWhileCheckout" />
+			<class name="testcases.TestCase15_PlaceOrderRegisterBeforeCheckout" />
+			<class name="testcases.TestCase16_PlaceOrderLoginBeforeCheckout" />
+			<class name="testcases.TestCase17_RemoveProductsFromCart" />
+			<class name="testcases.TestCase20_SearchProductsAndVerifyCartAfterLogin" />
+			<class name="testcases.TestCase21_AddReviewOnProduct" />
+			<class name="testcases.TestCase22_AddToCartFromRecommendedItems" />
+			<class name="testcases.TestCase23_VerifyAddressDetailsInCheckoutPage" />
+			<class name="testcases.TestCase25_VerifyScrollUpUsingArrowButtonAndScrollDownfunctionality" />
+			<class name="testcases.TestCase26_VerifyScrollUpWithoutArrowButtonAndScrollDownfunctionality" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
