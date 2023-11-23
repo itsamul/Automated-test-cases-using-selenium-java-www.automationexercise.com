@@ -7,9 +7,12 @@
 This project contains script to automate test cases for the automationexcercise.com website using selenium webdriver 4.x, java and Testng. 
 
 # **Tech and Tools:**
-1. Selenium webdriver
-2. Java
-3. TestNg
+
+| #   | NAME | Version |
+|-----|----- |---------|
+|1. | Selenium webdriver| 4.14.1 |
+|2. | Java | 17.0.8 |
+|3. | TestNg | 7.8.0 |
 
 # **Test Cases covered:**
 Following are the list of test cases automated:
