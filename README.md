@@ -35,9 +35,8 @@ Following are the list of test cases automated:
 16. Verify that 'Logged in as username' is visible <br>
 17. Click 'Delete Account' button <br>
 18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button  <br>
-
-[TestCase1_RegisterUser.java](https://github.com/itsamul/Automated-test-cases-using-selenium-java-www.automationexercise.com/blob/master/src/test/java/testcases/TestCase1_RegisterUser.java)
-
+<br>
+**Code:** [TestCase1_RegisterUser.java](https://github.com/itsamul/Automated-test-cases-using-selenium-java-www.automationexercise.com/blob/master/src/test/java/testcases/TestCase1_RegisterUser.java)
 </details>
 <details><summary>Test Case 2: Login User with correct email and password</summary>
 1. Launch browser <br>
